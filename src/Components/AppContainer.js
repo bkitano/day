@@ -1,17 +1,19 @@
 import React, {Component} from 'react';
 
-import Question from './Question';
+import Sticky from './Sticky';
 
 class AppContainer extends Component {
-    
+
     render() {
-        
+
         return (
-            
+
             <div className='AppContainer'>
-                <Question question='Why are you here?' length='40' />
+                <Sticky
+                  question = 'Why are you here?'
+                  />
             </div>
-            
+
             )
     }
 }
